@@ -1,5 +1,8 @@
 # cl-vue-ui
 
+### vue-cli 自定义配置
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
 ### 安装依赖
 ```
 yarn install
@@ -7,6 +10,7 @@ yarn install
 
 ### 本地启动
 ```
+yarn dev
 yarn serve
 ```
 
@@ -25,8 +29,7 @@ yarn test:unit
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+---
 
 # 自动化部署步骤
 
@@ -35,7 +38,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ##### 1. 准备工作：
 
 - 读取权限 
-  - settings中设置github的令牌
+  - settings中设置github的令牌（推送到github厂库）
+  - settings中设置codding的令牌（推送到github厂库）
+- travis-ci中自定义环境变量中设置用户信息，token，仓库地址及任意想设置的值
+- 源码根目录添加.travis.yml
+- 编辑.travis.yml（根据你自己的需要）
 
 ### 2. 自己编写 webhook 实现自己的服务器自动更新
 
