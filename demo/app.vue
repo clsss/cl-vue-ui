@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header class="app-header">
-      <strong>collin 自定义组件</strong>
+      <strong>collin 自定义组件1</strong>
     </header>
     <div class="app-content">
       <div class="menu">
