@@ -6,7 +6,7 @@ install:
   - yarn
 
 script:
-  - npm build
+  - yarn build
 
 after_success:
   - cd ./dist
