@@ -1,0 +1,23 @@
+/********** 公共样式 全局生效 ********/
+
+// 定义变量(全局都可以使用)
+// @import './consts';
+
+// 重置样式
+@import "./reset";
+// 通用样式（可直接在行内使用的类名）
+@import "./common";
+// 通用动画样式
+@import "./animate";
+
+/********** 以下为项目特有公共代码 **********/
+
+// vue编译结束前不显示带v-cloak的标签
+[v-cloak] {
+  display: none !important;
+}
+
+// 本项目特有全局样式
+.title-h3 {
+  margin: 10px;
+}

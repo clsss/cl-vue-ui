@@ -1,0 +1,39 @@
+/********** 颜色  **********/
+// 信息
+$c-info: #199ff1;
+$c-info-dimness10: mix($c-info, #fff, 10%);
+$c-info-highlight80: mix($c-info, #fff, 80%);
+// 成功
+$c-success: #37aa37;
+$c-success-dimness10: mix($c-success, #fff, 10%);
+$c-success-highlight80: mix($c-success, #fff, 80%);
+// 警告
+$c-warning: #e6a23c;
+$c-warning-dimness10: mix($c-warning, #fff, 10%);
+$c-warning-highlight80: mix($c-warning, #fff, 80%);
+// 失败
+$c-error: #ff5555;
+$c-error-dimness10: mix($c-error, #fff, 10%);
+$c-error-highlight80: mix($c-error, #fff, 80%);
+
+
+
+/********** 文字  **********/
+// 标题，文本框，及其他重要文字
+$text-strong: #292f3f;
+// 普通文字信息, 如：首页部分标题，输入框前的文字
+$text-normal: #67676f;
+// 辅助色，如：表头，输入框，下拉箭头
+$text-weak: #99999f;
+
+// 深色描边，如：输入框颜色
+$border-normal: #cccccc;
+// 浅色描边，如：列表分割线
+$line-separator: #e1e6eb;
+// 浅色描边，如：普通按钮边框，某些ionc无法点击的颜色
+$line-border: #dddddd;
+
+// 底色，如：常规按钮底色，列表行被选中颜色
+$bg-mormal: #f6f6f6;
+//底色，如：表头底色，选中下拉底色
+$bg-week: #f5f6fa;
