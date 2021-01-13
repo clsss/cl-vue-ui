@@ -37,6 +37,9 @@ yarn lint
 
 ##### 1. 准备工作：
 
+> Tip:
+> - 私有项目读取权限去 github Applications 配置
+
 - github私有仓库 main 分支存源码, dist分支作为打包后的静态文件存放点
 - 读取权限 
   - settings中设置github的令牌（推送到github厂库）
