@@ -37,12 +37,14 @@ yarn lint
 
 ##### 1. 准备工作：
 
+- github私有仓库 main 分支存源码
 - 读取权限 
   - settings中设置github的令牌（推送到github厂库）
   - settings中设置codding的令牌（推送到github厂库）
 - travis-ci中自定义环境变量中设置用户信息，token，仓库地址及任意想设置的值
 - 源码根目录添加.travis.yml
 - 编辑.travis.yml（根据你自己的需要）
+
 
 ### 2. 自己编写 webhook 实现自己的服务器自动更新
 
