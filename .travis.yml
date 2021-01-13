@@ -1,6 +1,10 @@
 language: node_js
 node_js:
   - "10"
+# 指定缓存模块，可选。缓存可加快编译速度。
+cache:
+  directories:
+    - node_modules
 
 install:
   - yarn
@@ -16,7 +20,7 @@ after_success:
   - git add .
   - git commit -m "update from travis-ci"
   - git push --quiet --force "https://${GH_TOKEN}@${GH_REF}" master:dist
-  # - git push --quiet --force "https://${CODING_TOKEN}@${CODING_REF}" master:dist
+  - git push --quiet --force "https://${CODING_TOKEN}@${CODING_REF}" master:dist
 
 branches:
   only:
